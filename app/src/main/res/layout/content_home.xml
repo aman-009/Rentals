@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amanmehta.rentals.Home"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c1bdbd"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@mipmap/img_back9"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="ABB GHAR DHUNDNA SABSE ASAAN"
+                        android:textColor="@color/azur"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:text="->100+ se jyada owners ke contact bilkul  FREE"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:text="->Rent/buy/sell mai bhout sare options ke bich 100+ ghar"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:text="->No registration cost or HIDDEN FEES at any stage"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/searchHome"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ic_search_black_24dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SEARCH AMONG 100+ HOMES/ROOMS FREE"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/darkBlue"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="For House Owners"
+                                android:textColor="@color/darkBlue"
+                                android:textSize="20sp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="abb ghar ko khali na rhene de and earn more"
+                                android:textColor="@color/darkBlue"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@mipmap/back_anime" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="350dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#c1bdbd" />
+
+                        <Button
+                            android:id="@+id/buttonPost"
+                            android:layout_width="330dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@color/lightPink"
+                            android:text="post free add"
+                            android:textSize="10sp"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="To know more call us or give a miss call on"
+                                android:textColor="@color/darkBlue"
+                                android:textSize="14sp"
+                                />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="50dp"
+                                android:background="@drawable/ic_call_black_24dp"
+
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="350dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#c1bdbd" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <Button
+                                android:layout_width="100dp"
+                                android:layout_height="28dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@color/lightPink"
+                                android:text="9999952336"
+                                android:textSize="10sp"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="    OR    "
+                                android:textColor="@color/darkBlue"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="40dp"
+                                android:layout_marginRight="40dp"/>
+
+                            <Button
+
+                                android:layout_width="100dp"
+                                android:layout_height="28dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@color/lightPink"
+                                android:text="9999952336"
+                                android:textSize="10sp"
+                                android:textColor="#fff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="7dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="For Advertisement "
+                                android:textColor="@color/darkBlue"
+                                android:textSize="20sp"
+                                />
+
+
+                            <TextView
+                                android:layout_width="220dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="let your local people know about your new shop  "
+                                android:textColor="@color/darkBlue"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="75dp"
+                            android:layout_height="65dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@mipmap/shop_anime" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="350dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#c1bdbd" />
+
+                        <Button
+                            android:layout_width="330dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@color/lightPink"
+                            android:text="post your add here"
+                            android:textSize="10sp"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

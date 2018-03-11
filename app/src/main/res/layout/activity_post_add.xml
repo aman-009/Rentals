@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amanmehta.rentals.PostAdd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="ADD PHOTO"
+                android:textColor="@color/darkBlue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/ic_add_box_black_24dp" />
+
+                <ImageButton
+                    android:id="@+id/imageView2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ic_add_box_black_24dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageView3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/ic_add_box_black_24dp" />
+
+                <ImageButton
+                    android:id="@+id/imageView4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ic_add_box_black_24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <EditText
+
+                    android:id="@+id/Address"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Address" />
+
+
+                <EditText
+                    android:id="@+id/Preference"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Preference" />
+
+
+                <EditText
+                    android:id="@+id/NoOfRooms"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Number of Rooms" />
+
+                <EditText
+                    android:id="@+id/Rate"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Rate" />
+
+
+                <EditText
+                    android:id="@+id/Water"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Water availability" />
+
+
+                <EditText
+                    android:id="@+id/ElectricityRate"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Electricity Rate" />
+
+                <EditText
+                    android:id="@+id/Extra"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Extra" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amanmehta.rentals.SignIn"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/darkBlue"
+        android:padding="35dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="Welcome to Rentals"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="Buy, sell, rent, and even find flatmates without paying brokerage in DELHI, MUMBAI,CHENNAI, PUNE, and GURGAON.Home rental platform that helps you save brokerage by connecting genuine house owners and genuine tenants directly without a broker. Renting out or finding a flat, apartment, house, home ... "
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            
+            
+            <Button
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEARN MORE"/>
+
+
+            <Button
+                android:id="@+id/JoinUs"
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JOIN us"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <EditText
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"/>
+
+
+        <EditText
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:id="@+id/SubmitButton"
+            android:layout_margin="40dp"
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN IN"
+            android:drawableRight="@drawable/ic_send_black_24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
